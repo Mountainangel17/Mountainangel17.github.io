@@ -1,5 +1,5 @@
 html, body {
-	background: #663399; /* Beccapurple */
+	background: blue; /* Beccapurple */
 	margin: 0;
 }
 h1, h2, h3, h4, h5, h6, p {
@@ -42,7 +42,7 @@ a:hover {
 }
 pre {
 	font-size: 1.4em;
-	color: white;
+	color: pink;
 	padding: .5em 1em;
 	border-left: 1em solid #A68048;
 	background: #666;
@@ -54,10 +54,10 @@ pre {
 	width: 80%;
 }
 pre.wrong {
-	border-left-color: red;
+	border-left-color: green;
 }
 pre.correct {
-	border-left-color: green;
+	border-left-color: yellow;
 }
 dt {
 	font-style: italic;
